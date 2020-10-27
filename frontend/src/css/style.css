@@ -63,3 +63,63 @@ main div{
 .form-control{
     width: 25%;
 }
+
+@media only screen and (max-width: 480px) {
+    .container{
+        margin: 10px auto;
+    }
+    header{
+        background-color: rgb(11, 11, 54);
+        height: 30px;
+    }
+    .logo img{
+        width: 40px;
+        height: 55px;
+        margin-left: 20px;
+        margin-bottom:30px;
+    }
+    .logo h5{
+        color: white;
+        margin-left: 5px;
+        margin-bottom: 50px;
+        font-size: 10px;
+    }
+    .menu img{
+        margin-bottom: 55px;
+        margin-right: 20px;
+        height: 10px;
+        width: 20px;
+    }
+    .content{
+        margin-top: 40px;
+        color: rgb(22, 83, 114);
+    }
+
+    main{
+        margin-top: 50px;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        width: auto;
+    }
+
+    .card h1{
+        font-size: large;
+    }
+    .card p{
+        font-size: x-small;
+    }
+    .form-group label{
+        font-size: small;    
+    }
+    .form-control{
+        width: 55%;
+    }
+    .chart{
+        width: 100% !important;
+    }
+
+}
+@media only screen and (max-width: 800px) {}
