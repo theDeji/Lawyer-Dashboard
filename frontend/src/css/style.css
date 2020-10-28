@@ -47,12 +47,17 @@ header{
     border-color: transparent;
     border: none !important;
     background-color: #fdd07d !important;
+    transition: all 0.2s ease; 
+}  
+
+.card:hover{
+   transform: translateY(-5px);
 }
 
 main{
     margin-top: 50px;
     display: grid;
-    grid-gap: 50px;
+    grid-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -63,6 +68,7 @@ main div{
 .form-control{
     width: 25%;
 }
+
 
 @media only screen and (max-width: 480px) {
     .container{

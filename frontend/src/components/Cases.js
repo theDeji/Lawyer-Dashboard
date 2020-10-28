@@ -51,6 +51,7 @@ function Cases() {
                 <StatBox text="Cases in Progress" value={active_cases}/>
                 <StatBox text="Lawyers Available" value={lawyers.length}/>
                 <StatBox text="New Cases" value={num_of_new_cases}/>
+                <StatBox text="Requests per Lawyer" value={active_cases/lawyers.length}/>
             </main>
         </div>
     )
