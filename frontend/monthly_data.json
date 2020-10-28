@@ -1,0 +1,8 @@
+[
+  {name: '4th', lawyer: 'Esq. Adeniji', active: 3, closed: 1, new: 2},
+  {name: '11th', lawyer: 'Esq. Alamu', active: 2, closed: 0, new: 2},
+  {name: '20th', lawyer: 'Esq. Shola', active: 0, closed: 1, new: 0},
+  {name: '22nd', lawyer: 'Esq. Adeniji', active: 0, closed: 0, new: 1},
+  {name: '29th', lawyer: 'Esq. Shola', active: 0, closed: 0, new: 0},
+  {name: '30th', lawyer: 'Esq. Alamu', active: 1, closed: 0, new: 0}
+]
